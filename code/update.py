@@ -9,7 +9,7 @@ client = MongoClient(db_host, db_port)
 
 # Authenticate with the provided credentials
 db = client.my_database
-db.authenticate('admin', 'password')
+db.authenticate('username', 'somepass123')
 
 # Update a document in a collection
 collection = db.my_collection
